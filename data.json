@@ -1,6 +1,24 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "lastUpdated": "2026-04-15",
+  "activeProjects": {
+    "ai-money-hunter-repo": {
+      "url": "https://github.com/haoyousun60-create/ai-money-hunter",
+      "status": "Active",
+      "purpose": "Curated collection of AI side hustles and code bounty platforms"
+    },
+    "jupiter-solana-trading-bot": {
+      "url": "https://github.com/haoyousun60-create/jupiter-solana-trading-bot",
+      "status": "Submitted for bounty",
+      "bounty": "Not Your Regular Bounty ($3,000)",
+      "submissionId": "a7fd5791-6452-4df2-af3f-0a9819c892b3"
+    },
+    "public-apis-okx": {
+      "url": "https://github.com/public-apis/public-apis/pull/5870",
+      "status": "Open (pending review)",
+      "description": "Updated OKX API entry - free public market data (no auth required)"
+    }
+  },
   "platforms": {
     "codeBounty": [
       {
@@ -129,7 +147,19 @@
       "difficulty": "Medium",
       "timeToFirstDollar": "1-7 days",
       "earningPotential": "$100-$30,000/bounty",
-      "skills": ["TypeScript", "React", "Python", "Solidity"]
+      "skills": ["TypeScript", "React", "Python", "Solidity"],
+      "topPlatforms": [
+        {
+          "name": "ZIO (Scala)",
+          "exampleBounties": ["$4,000 Schema Migration System", "$2,500 NIO Scheduler", "$850 ZScheduler Performance"],
+          "url": "https://github.com/zio/zio/issues?q=label:%22%F0%9F%92%8E%20Bounty%22"
+        },
+        {
+          "name": "Twenty (TypeScript/PostgreSQL)",
+          "exampleBounties": ["$2,500 IMAP Integration"],
+          "url": "https://github.com/twentyhq/twenty"
+        }
+      ]
     },
     {
       "name": "Crypto Airdrop Farming",
