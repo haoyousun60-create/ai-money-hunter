@@ -1,0 +1,24 @@
+name: Weekly Update
+
+on:
+  schedule:
+    # Every Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update timestamp
+        run: |
+          echo "# Last Updated: $(date -u +'%Y-%m-%d %H:%M UTC')" 
+          echo "This repo is actively maintained. Check README.md for latest bounty platforms."
+          
+      - name: Check for new bounties
+        run: |
+          echo "Superteam: https://superteam.fun/earn"
+          echo "Algora: https://algora.io"
+          echo "GitHub Bounties: https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Abounty"

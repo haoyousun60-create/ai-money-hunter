@@ -1,0 +1,149 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-04-15",
+  "platforms": {
+    "codeBounty": [
+      {
+        "name": "Superteam",
+        "url": "https://superteam.fun",
+        "focus": "Solana ecosystem, AI agents, DeFi",
+        "potential": "$500-$30,000",
+        "difficulty": "Medium",
+        "apiAvailable": true,
+        "notes": "Has both agent-eligible (API) and web-submission bounties. API key registration at superteam.fun/api/agents"
+      },
+      {
+        "name": "Algora.io",
+        "url": "https://algora.io",
+        "focus": "TypeScript, Rust, Solidity bounties",
+        "potential": "$100-$2,500",
+        "difficulty": "Medium",
+        "apiAvailable": false,
+        "notes": "Bounties get claimed fast. Set up alerts for new issues."
+      },
+      {
+        "name": "GitHub Issues (label:bounty)",
+        "url": "https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Abounty",
+        "focus": "Open source bugs & features",
+        "potential": "$50-$5,000",
+        "difficulty": "Easy",
+        "apiAvailable": true,
+        "notes": "Many platforms mirror bounties to GitHub issues first."
+      },
+      {
+        "name": "Code4rena",
+        "url": "https://code4rena.com",
+        "focus": "DeFi security audits",
+        "potential": "$5,000-$500,000",
+        "difficulty": "Hard",
+        "apiAvailable": false,
+        "notes": "Requires deep Solidity/security expertise. Highest potential payouts."
+      },
+      {
+        "name": "Immunefi",
+        "url": "https://immunefi.com",
+        "focus": "Web3 bug bounties",
+        "potential": "$1,000-$1,000,000+",
+        "difficulty": "Hard",
+        "apiAvailable": false,
+        "notes": "Critical protocol vulnerabilities only. Requires security research skills."
+      }
+    ],
+    "cryptoAirdrop": [
+      {
+        "name": "Hyperliquid",
+        "url": "https://hyperliquid.xyz",
+        "type": "Perpetual DEX",
+        "potential": "High",
+        "status": "Season 2 Active",
+        "gasRequired": false,
+        "network": "Hyperliquid L2"
+      },
+      {
+        "name": "Berachain",
+        "url": "https://berachain.com",
+        "type": "L1 blockchain",
+        "potential": "High",
+        "status": "Artio Testnet",
+        "gasRequired": false,
+        "network": "Berachain Testnet"
+      },
+      {
+        "name": "Monad",
+        "url": "https://monad.xyz",
+        "type": "L1 blockchain",
+        "potential": "Very High",
+        "status": "Testnet pending",
+        "gasRequired": "TBD",
+        "network": "Monad"
+      },
+      {
+        "name": "OmenX",
+        "url": "https://omenx.gg",
+        "type": "Prediction market",
+        "potential": "Medium",
+        "status": "Live",
+        "gasRequired": false,
+        "network": "Gnosis Chain"
+      },
+      {
+        "name": "LiquidRestake",
+        "url": "https://liquidrestake.io",
+        "type": "Restaking",
+        "potential": "Medium",
+        "status": "Live",
+        "gasRequired": true,
+        "network": "Ethereum"
+      }
+    ],
+    "hackathons": [
+      {
+        "name": "Superteam Colosseum",
+        "url": "https://colosseum.superteam.fun",
+        "prizePool": "$2,750,000",
+        "focus": "Solana ecosystem",
+        "deadline": "Rolling",
+        "apiAvailable": true
+      },
+      {
+        "name": "ETHGlobal",
+        "url": "https://ethglobal.com",
+        "prizePool": "$100k-$1M",
+        "focus": "Ethereum ecosystem",
+        "deadline": "Multiple per year",
+        "apiAvailable": false
+      },
+      {
+        "name": "Labyrinth",
+        "url": "https://labyrinth8008.typeform.com",
+        "prizePool": "$50,000",
+        "focus": "AI + Crypto",
+        "deadline": "Rolling",
+        "apiAvailable": false
+      }
+    ]
+  },
+  "incomeStreams": [
+    {
+      "name": "Code Bounty Hunting",
+      "difficulty": "Medium",
+      "timeToFirstDollar": "1-7 days",
+      "earningPotential": "$100-$30,000/bounty",
+      "skills": ["TypeScript", "React", "Python", "Solidity"]
+    },
+    {
+      "name": "Crypto Airdrop Farming",
+      "difficulty": "Easy",
+      "timeToFirstDollar": "Weeks to months",
+      "earningPotential": "$500-$50,000+/airdrop",
+      "skills": ["Wallet management", "Basic DeFi"]
+    },
+    {
+      "name": "Build & Sell AI Tools",
+      "difficulty": "Medium-High",
+      "timeToFirstDollar": "2-4 weeks",
+      "earningPotential": "$500-$10,000/month",
+      "skills": ["Full-stack", "Stripe integration"]
+    }
+  ]
+}
